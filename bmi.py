@@ -1,5 +1,5 @@
-height=input('输入身高：')
-weight=input('输入体重：')
+height=input('输入身高(米)：')
+weight=input('输入体重（千克）：')
 h=float(height)
 w=float(weight)
 bmi=w/(h**2)

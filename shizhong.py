@@ -76,7 +76,7 @@ def Date(t):
   y = t.year 
   m = t.month 
   d = t.day 
-  return "%s %d%d" % (y, m, d)   
+  return "%s-%d-%d" % (y, m, d)   
 def Tick(): 
   # 绘制表针的动态显示 
   t = datetime.today() 

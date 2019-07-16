@@ -5,4 +5,4 @@ def product(*,x,y):
     return s
 
 
-print(product(5,6))
+print(product(1,5,6))

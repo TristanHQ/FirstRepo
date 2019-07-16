@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{cf6e0ec6-28f1-4d03-b49b-081c4e41cb19}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>1107.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="1107.py" />
+    <Compile Include="11072.py" />
+    <Compile Include="1116.py" />
+    <Compile Include="1118import.py" />
+    <Compile Include="1128test.py" />
+    <Compile Include="1204.py" />
+    <Compile Include="1206EOFError.py" />
+    <Compile Include="1207Tkgui.pyw" />
+    <Compile Include="1212bill.py" />
+    <Compile Include="1212zhishu.py" />
+    <Compile Include="1216.py" />
+    <Compile Include="1227print.py" />
+    <Compile Include="9981.py" />
+    <Compile Include="99chengfa.py" />
+    <Compile Include="absn.py" />
+    <Compile Include="add_end.py" />
+    <Compile Include="append.py" />
+    <Compile Include="bmi.py" />
+    <Compile Include="bmi1.py" />
+    <Compile Include="break.py" />
+    <Compile Include="caiselx.py" />
+    <Compile Include="calc.py" />
+    <Compile Include="calend.py" />
+    <Compile Include="ClearWindow.py" />
+    <Compile Include="day4.py" />
+    <Compile Include="dayup.py" />
+    <Compile Include="def.py" />
+    <Compile Include="defjeicheng.py" />
+    <Compile Include="del.py" />
+    <Compile Include="dict.py" />
+    <Compile Include="dict1.py" />
+    <Compile Include="dir.py" />
+    <Compile Include="do_iter.py" />
+    <Compile Include="do_listcompr.py" />
+    <Compile Include="do_slice.py" />
+    <Compile Include="fact.py" />
+    <Compile Include="fangcqj.py" />
+    <Compile Include="fbn.py" />
+    <Compile Include="forin.py" />
+    <Compile Include="guitest.py" />
+    <Compile Include="hannuota.py" />
+    <Compile Include="hello.py" />
+    <Compile Include="hellogui.py" />
+    <Compile Include="helloqt.py" />
+    <Compile Include="hex.py" />
+    <Compile Include="houzi.py" />
+    <Compile Include="i.lowe.py" />
+    <Compile Include="if1.py" />
+    <Compile Include="imos.py" />
+    <Compile Include="isinstance.py" />
+    <Compile Include="iter.py" />
+    <Compile Include="jiecheng.py" />
+    <Compile Include="kk1.py" />
+    <Compile Include="kk2.py" />
+    <Compile Include="kk3.py" />
+    <Compile Include="kk5.py" />
+    <Compile Include="Lappend.py" />
+    <Compile Include="line.py" />
+    <Compile Include="list.py" />
+    <Compile Include="list1.py" />
+    <Compile Include="localtime.py" />
+    <Compile Include="luoxuanpy.py" />
+    <Compile Include="mangshe.py" />
+    <Compile Include="map.py" />
+    <Compile Include="match simulate.py" />
+    <Compile Include="mk.py" />
+    <Compile Include="mn.py" />
+    <Compile Include="my_abs.py" />
+    <Compile Include="name.py" />
+    <Compile Include="NetWork.py" />
+    <Compile Include="none3.py" />
+    <Compile Include="nowScore.py" />
+    <Compile Include="operat.py" />
+    <Compile Include="pi运算.py" />
+    <Compile Include="product.py" />
+    <Compile Include="prx.py" />
+    <Compile Include="pyauto.py" />
+    <Compile Include="qt5test.py" />
+    <Compile Include="QTTEST.py" />
+    <Compile Include="qukankan.py" />
+    <Compile Include="retabs.py" />
+    <Compile Include="RMB.py" />
+    <Compile Include="s.lowe.py" />
+    <Compile Include="sanjiaoxing.py" />
+    <Compile Include="Scalc.py" />
+    <Compile Include="set.py" />
+    <Compile Include="shipu.py" />
+    <Compile Include="shizhong.py" />
+    <Compile Include="singsong.py" />
+    <Compile Include="snumber.py" />
+    <Compile Include="sxh.py" />
+    <Compile Include="taiyanghua.py" />
+    <Compile Include="taxcalc.py" />
+    <Compile Include="temp.py" />
+    <Compile Include="TempConvert.py" />
+    <Compile Include="tes1.py" />
+    <Compile Include="time.py" />
+    <Compile Include="tkgui.py" />
+    <Compile Include="toCNY.py" />
+    <Compile Include="triangles.py" />
+    <Compile Include="usdef1.py" />
+    <Compile Include="var_args.py" />
+    <Compile Include="while.py" />
+    <Compile Include="wujiaoxing.py" />
+    <Compile Include="wxPy.py" />
+    <Compile Include="xi.py" />
+    <Compile Include="xz1214.py" />
+    <Compile Include="九九乘法表.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="hnt.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
